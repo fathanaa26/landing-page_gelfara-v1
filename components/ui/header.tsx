@@ -28,9 +28,9 @@ export default function Header() {
         <div className="flex items-center justify-center h-16 md:h-20">
 
           {/* Site branding */}
-          {/* <div className="shrink-0 mr-4"> */}
+          <div className="shrink-0 mt-10">
             <Logo />
-          {/* </div> */}
+          </div>
 
           {/* Desktop navigation */}
           {/* <nav className="hidden md:flex md:grow"> */}
@@ -51,7 +51,7 @@ export default function Header() {
 
           </nav> */}
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
 
         </div>
       </div>
